@@ -11,3 +11,7 @@ Connect your Malduino to your computer (if you don't know how to use your Maldui
 NOTE: Make sure that all your files are still under the same folder named "lite".
 
 *This script is an adaptation of an existing rubber ducky script, adapted for windows 10 and improved by me.*
+
+## Customisation
+If you want to choose which image the scripts downloads, edit the line 100 with whatever image link you want to use:
+```Keyboard.print("iexplore http://www.thecuriosityworkshop.com/wp-content/uploads/2015/03/01-rubberduck-hongkong.jpg"); // browse to get the image```
