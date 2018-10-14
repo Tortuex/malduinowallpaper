@@ -15,3 +15,8 @@ NOTE: Make sure that all your files are still under the same folder named "lite"
 ## Customisation
 If you want to choose which image the scripts downloads, edit the line 100 with whatever image link you want to use:
 ```Keyboard.print("iexplore http://www.thecuriosityworkshop.com/wp-content/uploads/2015/03/01-rubberduck-hongkong.jpg"); // browse to get the image```
+
+If you want to change the name of the file you download, edit the line 138 for whatever name of image you want (be careful: the extension of the image needs to match the one you download (JPG / PNG / GIF / ...):
+```Keyboard.print("01-rubberduck-hongkong.jpg");```
+
+**If you change the name of the image, make sure to also change the line 80 and the line 299 to the corresponding name**
