@@ -1,5 +1,6 @@
 # malduinowallpaper
 *This script has been created using the Malduino lite and only works under Windows 10 with the default image browser.*
+
 *This scripts downloads an image with internet explorer and sets it as the background image, delteding the image if existing at the beggining of the procces and at its end.*
 
 ## Setup 
