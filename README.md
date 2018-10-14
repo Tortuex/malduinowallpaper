@@ -1,5 +1,5 @@
 # malduinowallpaper
-*This repository has been created using the Malduino lite and only works under Windows 10 with the default image browser.*
+*This script has been created using the Malduino lite and only works under Windows 10 with the default image browser.*
 
 ## Setup 
 Download the "lite" folder on your computer, it has been made for french keyboard layout so if you have another keyboard layout make sure to go on https://malduino.com/converter/ and download the correct keyboard layout for your needs at the bottom of the page.
