@@ -22,3 +22,6 @@ If you want to change the name of the file you download, edit the line 138 for w
 ```Keyboard.print("01-rubberduck-hongkong.jpg");```
 
 **If you change the name of the image, make sure to also change the line 80 and the line 299 to the corresponding name.**
+
+## Known issues
+  * Documents isn't the default download folder, I'll fix that asap
