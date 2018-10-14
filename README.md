@@ -1,5 +1,6 @@
 # malduinowallpaper
 *This script has been created using the Malduino lite and only works under Windows 10 with the default image browser.*
+*This scripts downloads an image with internet explorer and sets it as the background image, delteding the image if existing at the beggining of the procces and at its end.*
 
 ## Setup 
 Download the "lite" folder on your computer, it has been made for french keyboard layout so if you have another keyboard layout make sure to go on https://malduino.com/converter/ and download the correct keyboard layout for your needs at the bottom of the page.
