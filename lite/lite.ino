@@ -87,7 +87,7 @@ void setup(){
     delay(100);
     Keyboard.press(KEY_LEFT_ALT);
     Keyboard.press(KEY_F4);
-    Keyboard.releaseAll();
+    Keyboard.releaseAll(); // closes the terminal
 
     // downloads the picture
     delay(defaultDelay);
@@ -306,7 +306,7 @@ void setup(){
     delay(100);
     Keyboard.press(KEY_LEFT_ALT);
     Keyboard.press(KEY_F4);
-    Keyboard.releaseAll();
+    Keyboard.releaseAll(); // closes the terminal
 
     
     /* ----- End-Script -----*/
