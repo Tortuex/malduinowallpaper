@@ -35,8 +35,7 @@ void setup(){
     Mouse.begin();
     
     /* ----- Begin-Script -----*/
-    
-    /* [Parsed By Duckuino (Licensed under MIT) - for more information visit: https://github.com/Nurrl/Dckuino.js] */    
+       
     // This is a script to download and change the wallpaper in windows 10
 
     delay(defaultDelay);
@@ -52,7 +51,6 @@ void setup(){
     // If you want to use Chrome or Firefox instead of IE, remove 'iexplorer' from the following line
 
     delay(defaultDelay);
-    // but also make sure to follow instructions bellow
 
     // deletes old file if already present
     delay(defaultDelay);
@@ -79,7 +77,7 @@ void setup(){
 
     delay(defaultDelay);
     delay(100);
-    Keyboard.print("erase /Q 01-rubberduck-hongkong.jpg");
+    Keyboard.print("erase /Q 01-rubberduck-hongkong.jpg"); // erase the old file
 
     delay(defaultDelay);
     delay(100);
@@ -99,7 +97,7 @@ void setup(){
     
     delay(defaultDelay);
     delay(500);
-    Keyboard.print("iexplore http://www.thecuriosityworkshop.com/wp-content/uploads/2015/03/01-rubberduck-hongkong.jpg");
+    Keyboard.print("iexplore http://www.thecuriosityworkshop.com/wp-content/uploads/2015/03/01-rubberduck-hongkong.jpg"); // browse to get the image
 
     delay(defaultDelay);
     delay(2500);
@@ -137,8 +135,7 @@ void setup(){
     // If you want to use Firefox, change 'Documents' to 'Pictures'
 
     delay(defaultDelay);
-    // default: Keyboard.print("%USERPROFILE%\\Documents\\01-rubberduck-hongkong.jpg");
-    Keyboard.print("01-rubberduck-hongkong.jpg");
+    Keyboard.print("01-rubberduck-hongkong.jpg"); // sets the name of the picture
 
     delay(defaultDelay);
     delay(800);
@@ -291,7 +288,7 @@ void setup(){
 
     delay(defaultDelay);
     delay(100);
-    Keyboard.print("cd Documents");
+    Keyboard.print("cd Documents"); // goes to the file location
 
     delay(defaultDelay);
     delay(100);
@@ -299,7 +296,7 @@ void setup(){
 
     delay(defaultDelay);
     delay(100);
-    Keyboard.print("erase /Q 01-rubberduck-hongkong.jpg");
+    Keyboard.print("erase /Q 01-rubberduck-hongkong.jpg"); // erase the file
 
     delay(defaultDelay);
     delay(100);
