@@ -45,12 +45,7 @@ void setup(){
     delay(5000);
 
     delay(defaultDelay);
-    // Note: The internet explorer method works usually for everyone but
-
-    delay(defaultDelay);
-    // If you want to use Chrome or Firefox instead of IE, remove 'iexplorer' from the following line
-
-    delay(defaultDelay);
+    // Note: The internet explorer method usually works for everyone
 
     // deletes old file if already present
     delay(defaultDelay);
@@ -129,12 +124,6 @@ void setup(){
     delay(300);
 
     delay(defaultDelay);
-    // If you want to use Chrome, change 'Documents' to 'Downloads'
-
-    delay(defaultDelay);
-    // If you want to use Firefox, change 'Documents' to 'Pictures'
-
-    delay(defaultDelay);
     Keyboard.print("01-rubberduck-hongkong.jpg"); // sets the name of the picture
 
     delay(defaultDelay);
@@ -147,7 +136,6 @@ void setup(){
     delay(1000);
 
     // change background
-
     delay(defaultDelay);
     Keyboard.press(KEY_LEFT_SHIFT);
     Keyboard.press(KEY_F10);
